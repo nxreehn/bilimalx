@@ -1,11 +1,15 @@
 // ==UserScript==
 // @name         BilimalXtnd.
 // @namespace    noreehn.
-// @version      1.0
-// @description  Данный скрипт возвращает возможность выставить оценки в системе билимал даже после того как база была закрыта.
+// @version      1.1
+// @description  Скрипт даёт возможность выставить оценки после закрытия базы.
+Вводить нужно данные НЕ ОТ БИЛИМАЛ, а те,что выдал автор. Для каждого пользователя выдаётся отдельный логин и пароль, который записывается в базу. Чтобы получить свой логин и пароль напишите сюда: https://t.me/noreehn
 // @author       noreehn.
 // @match        https://school.bilimal.kz/*
 // @icon         https://cdn-icons-png.flaticon.com/512/258/258304.png
+// @homepageURL  https://raw.githubusercontent.com/nxreehn/bilimalx/main/main.js
+// @updateURL    https://raw.githubusercontent.com/nxreehn/bilimalx/main/main.js
+// @downloadURL  https://raw.githubusercontent.com/nxreehn/bilimalx/main/main.js
 // @grant GM_setValue
 // @grant GM_getValue
 // @grant GM_setClipboard
