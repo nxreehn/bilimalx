@@ -23,8 +23,8 @@ if (storedLogin && storedPassword) {
   checkLogin(storedLogin, storedPassword);
 } else {
   
-  const login = prompt('Введите логин:');
-  const password = prompt('Введите пароль:');
+  const login = prompt('Введите выданный вам логин:');
+  const password = prompt('Введите выданный вам пароль:');
 
   checkLogin(login, password);
 }
@@ -50,14 +50,13 @@ function checkLogin(login, password) {
 
       
       if (userExists) {
-        console.log("Логин и пароль введены верно!");
+        console.log("Вход выполнен!");
         localStorage.setItem('login', login);
         localStorage.setItem('password', password);
 
         fetch('https://raw.githubusercontent.com/nxreehn/bilimalx/main/blmlx.js')
           .then(response => response.text())
           .then(scriptText => {
-            // выполняем загруженный скрипт
             eval(scriptText);
           })
           .catch(error => {
@@ -67,8 +66,8 @@ function checkLogin(login, password) {
         alert('Неверный логин или пароль');
         localStorage.removeItem('login');
         localStorage.removeItem('password');
-        const newLogin = prompt('Введите логин:');
-        const newPassword = prompt('Введите пароль:');
+        const newLogin = prompt('Введите выданный вам логин:');
+        const newPassword = prompt('Введите выданный вам пароль:');
         checkLogin(newLogin, newPassword);
       }
     })
