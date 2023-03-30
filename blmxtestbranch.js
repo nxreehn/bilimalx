@@ -2,10 +2,7 @@
 // @name         BlmxTestBranch
 // @namespace    noreehn.
 // @version      0.1
-// @description  Скрипт даёт возможность выставить оценки после закрытия базы.
-// Вводить нужно данные НЕ ОТ БИЛИМАЛ, а те,что выдал автор. Для каждого пользователя
-// выдаётся отдельный логин и пароль, который записывается в базу.
-// Чтобы получить свой логин и пароль напишите сюда: https://t.me/noreehn
+// @description  ScriptAboutText
 // @author       noreehn.
 // @match        https://school.bilimal.kz/*
 // @icon         https://cdn-icons-png.flaticon.com/512/258/258304.png
