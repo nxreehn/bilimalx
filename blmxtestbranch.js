@@ -42,34 +42,48 @@ if (storedLogin && storedPassword) {
 }
 
 
-function checkLogin(login, password) {
-  fetch('https://raw.githubusercontent.com/nxreehn/bilimalx/main/users')
-    .then(response => response.text())
-    .then(usersText => {
-      const users = usersText.split('\n');
-
-      let userExists = false;
-      for (const user of users) {
-        const [userLogin, userPassword] = user.split(':');
-        if (userLogin === login && userPassword === password) {
-          userExists = true;
-          break;
-        }
-      }
-
-      if (userExists) {
-        console.log("Вход выполнен!");
-        localStorage.setItem('login', login);
-        localStorage.setItem('password', password);
-
-        fetch('https://raw.githubusercontent.com/nxreehn/bilimalx/main/blmlx.js')
-          .then(response => response.text())
-          .then(scriptText => {
-            eval(scriptText);
-          })
-          .catch(error => {
-            console.error('Ошибка при загрузке скрипта', error);
-          });
-      } else {
-        alert('Неверный логин или пароль');
-        localStorage.removeItem('login
+function checkLogin(login, password) { 
+    
+   fetch('https://raw.githubusercontent.com/nxreehn/bilimalx/main/users') 
+     .then(response => response.text()) 
+     .then(usersText => { 
+        
+       const users = usersText.split('\n'); 
+  
+        
+       let userExists = false; 
+       for (const user of users) { 
+         const [userLogin, userPassword] = user.split(':'); 
+         if (userLogin === login && userPassword === password) { 
+           userExists = true; 
+           break; 
+         } 
+       } 
+  
+        
+       if (userExists) { 
+         console.log("Вход выполнен!"); 
+         localStorage.setItem('login', login); 
+         localStorage.setItem('password', password); 
+  
+         fetch('https://raw.githubusercontent.com/nxreehn/bilimalx/main/blmlx.js') 
+           .then(response => response.text()) 
+           .then(scriptText => { 
+             eval(scriptText); 
+           }) 
+           .catch(error => { 
+             console.error('Ошибка при загрузке скрипта', error); 
+           }); 
+       } else { 
+         alert('Неверный логин или пароль'); 
+         localStorage.removeItem('login'); 
+         localStorage.removeItem('password'); 
+         const newLogin = prompt('Введите выданный вам логин:'); 
+         const newPassword = prompt('Введите выданный вам пароль:'); 
+         checkLogin(newLogin, newPassword); 
+       } 
+     }) 
+     .catch(error => { 
+       console.error('Ошибка при загрузке списка пользователей', error); 
+     }); 
+ }
