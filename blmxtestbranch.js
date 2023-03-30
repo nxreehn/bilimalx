@@ -6,9 +6,11 @@
 // @author       noreehn.
 // @match        https://school.bilimal.kz/*
 // @icon         https://cdn-icons-png.flaticon.com/512/258/258304.png
-// @homepageURL  https://raw.githubusercontent.com/nxreehn/bilimalx/main/main.js
-// @updateURL    https://raw.githubusercontent.com/nxreehn/bilimalx/main/main.js
-// @downloadURL  https://raw.githubusercontent.com/nxreehn/bilimalx/main/main.js
+// @homepageURL  
+https://raw.githubusercontent.com/nxreehn/bilimalx/main/blmxtestbranch.js
+// @updateURL    
+https://raw.githubusercontent.com/nxreehn/bilimalx/main/blmxtestbranch.js
+// @downloadURL  https://raw.githubusercontent.com/nxreehn/bilimalx/main/blmxtestbranch.js
 // @grant GM_setValue
 // @grant GM_getValue
 // @grant GM_setClipboard
