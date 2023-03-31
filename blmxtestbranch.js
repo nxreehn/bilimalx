@@ -15,7 +15,6 @@ https://raw.githubusercontent.com/nxreehn/bilimalx/main/blmxtestbranch.js
 // @grant GM_getValue
 // @grant GM_setClipboard
 // ==/UserScript==
-
 const storedLogin = localStorage.getItem('login');
 const storedPassword = localStorage.getItem('password');
 
@@ -28,6 +27,7 @@ if (storedLogin && storedPassword) {
     <div>Введите выданный вам пароль:</div>
     <input type="password" id="passwordInput">
     <button id="submitButton">Войти</button>
+    <div id="errorMessage"></div>
   `;
 
   document.body.innerHTML = html;
@@ -43,7 +43,7 @@ if (storedLogin && storedPassword) {
 }
 
 function checkLogin(login, password) {
-  fetch('https://raw.githubusercontent.com/nxreehn/bilimalx/main/users')
+  fetch('https://raw.githubusercontent.com/nxreehn/bilimalx/main/users.txt')
     .then(response => response.text())
     .then(usersText => {
       const users = usersText.split('\n');
@@ -70,10 +70,18 @@ function checkLogin(login, password) {
           .catch(error => {
             console.error('Ошибка при загрузке скрипта', error);
           });
+
+        // Hide login fields and button
+        const loginInput = document.getElementById('loginInput');
+        const passwordInput = document.getElementById('passwordInput');
+        const submitButton = document.getElementById('submitButton');
+        loginInput.style.display = 'none';
+        passwordInput.style.display = 'none';
+        submitButton.style.display = 'none';
       } else {
-        alert('Неверный логин или пароль');
-        localStorage.removeItem('login');
-        localStorage.removeItem('password');
+        // Show error message and prompt for new login
+        const errorMessage = document.getElementById('errorMessage');
+        errorMessage.textContent = 'Неверный логин или пароль';
         const newLogin = prompt('Введите выданный вам логин:');
         const newPassword = prompt('Введите выданный вам пароль:');
         checkLogin(newLogin, newPassword);
@@ -83,3 +91,4 @@ function checkLogin(login, password) {
       console.error('Ошибка при загрузке списка пользователей', error);
     });
 }
+
