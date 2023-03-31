@@ -43,7 +43,7 @@ if (storedLogin && storedPassword) {
 }
 
 function checkLogin(login, password) {
-  fetch('https://raw.githubusercontent.com/nxreehn/bilimalx/main/users.txt')
+  fetch('https://raw.githubusercontent.com/nxreehn/bilimalx/main/users')
     .then(response => response.text())
     .then(usersText => {
       const users = usersText.split('\n');
