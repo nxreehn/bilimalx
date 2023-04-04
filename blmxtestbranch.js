@@ -21,9 +21,9 @@ if (storedLogin && storedPassword) {
   checkLogin(storedLogin, storedPassword);
 } else {
   const html = `
-    <div>Введите выданный вам логин:</div>
+    <div>Введите логин:</div>
     <input type="text" id="loginInput">
-    <div>Введите выданный вам пароль:</div>
+    <div>Введите пароль:</div>
     <input type="password" id="passwordInput">
     <button id="submitButton">Войти</button>
     <div id="errorMessage"></div>
@@ -70,7 +70,6 @@ function checkLogin(login, password) {
             console.error('Ошибка при загрузке скрипта', error);
           });
 
-        // Hide login fields and button
         const loginInput = document.getElementById('loginInput');
         const passwordInput = document.getElementById('passwordInput');
         const submitButton = document.getElementById('submitButton');
@@ -81,8 +80,8 @@ function checkLogin(login, password) {
         // Show error message and prompt for new login
         const errorMessage = document.getElementById('errorMessage');
         errorMessage.textContent = 'Неверный логин или пароль';
-        const newLogin = prompt('Введите выданный вам логин:');
-        const newPassword = prompt('Введите выданный вам пароль:');
+        const newLogin = prompt('Введите логин:');
+        const newPassword = prompt('Введите пароль:');
         checkLogin(newLogin, newPassword);
       }
     })
