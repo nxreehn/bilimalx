@@ -23,3 +23,13 @@
 скопируйте ссылку https://raw.githubusercontent.com/nxreehn/bilimalx/main/main.js, вставьте в открывшееся окно и нажмите ОК
 ![image](https://user-images.githubusercontent.com/128985049/234906109-8c7d9ff3-a20d-474e-868a-09a66423a6bc.png)
 ![image](https://user-images.githubusercontent.com/128985049/234906279-0d90d604-614b-4d4f-b562-577a7f3e040a.png)
+
+Вот и всё!
+----------
+А теперь установка для android смартфонов:
+----------
+Для начала нужно будет установить браузер Kiwi на ваш смартфон (он поддерживает установку пользовательских скриптов)
+ вот ссылка: https://play.google.com/store/apps/details?id=com.kiwibrowser.browser&hl=ru&gl=US
+ или ищите самостоятельно в Play Market
+![image](https://user-images.githubusercontent.com/128985049/234907760-ef432a89-2cb9-45ec-9352-205ad4cf8ba7.png)
+после установки браузера открываете его, заходите на сайт https://violentmonkey.github.io/ и устанавливаете расширение violentmonkey (Важно! версию для Goodle Chrome)
