@@ -20,6 +20,6 @@
 
 ![image](https://user-images.githubusercontent.com/128985049/234905587-4d5f9fc2-b9cc-45f7-965e-924bb350b1c4.png)
 
-скопируйте ссылку [https://raw.githubusercontent.com/nxreehn/bilimalx/main/main.js], вставьте в открывшееся окно и нажмите ОК
+скопируйте ссылку https://raw.githubusercontent.com/nxreehn/bilimalx/main/main.js, вставьте в открывшееся окно и нажмите ОК
 ![image](https://user-images.githubusercontent.com/128985049/234906109-8c7d9ff3-a20d-474e-868a-09a66423a6bc.png)
 ![image](https://user-images.githubusercontent.com/128985049/234906279-0d90d604-614b-4d4f-b562-577a7f3e040a.png)
