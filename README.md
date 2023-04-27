@@ -33,3 +33,12 @@
  или ищите самостоятельно в Play Market
 ![image](https://user-images.githubusercontent.com/128985049/234907760-ef432a89-2cb9-45ec-9352-205ad4cf8ba7.png)
 после установки браузера открываете его, заходите на сайт https://violentmonkey.github.io/ и устанавливаете расширение violentmonkey **(Важно! версию для Google Chrome)**
+-----
+![image](https://user-images.githubusercontent.com/128985049/234909275-fa6059cc-a94c-429a-ac90-8565d9cfd474.png)
+![image](https://user-images.githubusercontent.com/128985049/234909578-3ba4c417-fee6-41ff-b2fb-5b77564de4a3.png)
+![image](https://user-images.githubusercontent.com/128985049/234909641-bc489cba-739a-4c96-bf16-3b60a7195810.png)
+![image](https://user-images.githubusercontent.com/128985049/234909710-186c4f25-a560-451a-b8f8-324a2d7964a2.png)
+В открывшемся окне вводите ссылку на скрипт: https://raw.githubusercontent.com/nxreehn/bilimalx/main/main.js вы подтверждаете установку.
+ 
+Для активации работы открываем электронный журнал **именно через браузер Kiwi** и заходим под своими логином и паролем, как вы обычно это делаете.
+И всё! Пользуемся! Теперь если вы не успели выставить оценки вы можете их выставить в любое время
