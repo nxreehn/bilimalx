@@ -32,4 +32,4 @@
  вот ссылка: https://play.google.com/store/apps/details?id=com.kiwibrowser.browser&hl=ru&gl=US
  или ищите самостоятельно в Play Market
 ![image](https://user-images.githubusercontent.com/128985049/234907760-ef432a89-2cb9-45ec-9352-205ad4cf8ba7.png)
-после установки браузера открываете его, заходите на сайт https://violentmonkey.github.io/ и устанавливаете расширение violentmonkey (Важно! версию для Goodle Chrome)
+после установки браузера открываете его, заходите на сайт https://violentmonkey.github.io/ и устанавливаете расширение violentmonkey **(Важно! версию для Google Chrome)**
