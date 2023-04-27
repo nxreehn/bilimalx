@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         BilimalXtnd.
 // @namespace    noreehn.
-// @version      1.1
-// @description  Скрипт даёт возможность выставить оценки после закрытия базы. Вводить нужно данные НЕ ОТ БИЛИМАЛ, а те,что выдал автор. Для каждого пользователя выдаётся отдельный логин и пароль, который записывается в базу. Чтобы получить свой логин и пароль напишите сюда: https://t.me/noreehn
+// @version      1.5
+// @description  Скрипт даёт возможность выставить оценки после закрытия базы. 
 // @author       noreehn.
 // @match        https://school.bilimal.kz/*
 // @icon         https://cdn-icons-png.flaticon.com/512/258/258304.png
@@ -14,63 +14,31 @@
 // @grant GM_setClipboard
 // ==/UserScript==
 
-const storedLogin = localStorage.getItem('login');
-const storedPassword = localStorage.getItem('password');
-
-
-if (storedLogin && storedPassword) {
-  checkLogin(storedLogin, storedPassword);
-} else {
-  
-  const login = prompt('Введите выданный вам логин:');
-  const password = prompt('Введите выданный вам пароль:');
-
-  checkLogin(login, password);
-}
-
-
-function checkLogin(login, password) {
-  
-  fetch('https://raw.githubusercontent.com/nxreehn/bilimalx/main/users')
-    .then(response => response.text())
-    .then(usersText => {
-      
-      const users = usersText.split('\n');
-
-      
-      let userExists = false;
-      for (const user of users) {
-        const [userLogin, userPassword] = user.split(':');
-        if (userLogin === login && userPassword === password) {
-          userExists = true;
-          break;
+(function() {
+    'use strict';
+    console.log("Script Loaded.");
+    document.querySelectorAll('td.mark.current.sor').forEach((e) => {
+        const tasksDiv = e.querySelector('#tasks');
+        if (!e.querySelector('.tooltipster.mark_symbol.is-update') && tasksDiv) {
+            tasksDiv.innerHTML = '<div class="mark-plus">+</div>';
+        } else if (!e.querySelector('.tooltipster.mark_symbol.is-update')) {
+            e.insertAdjacentHTML('beforeend', '<div id="tasks" style="display: flex; align-items: center; justify-content: flex-end; padding: 5px;" data-bg="none"><div class="mark-plus">+</div></div>');
         }
-      }
-
-      
-      if (userExists) {
-        console.log("Вход выполнен!");
-        localStorage.setItem('login', login);
-        localStorage.setItem('password', password);
-
-        fetch('https://raw.githubusercontent.com/nxreehn/bilimalx/main/blmlx.js')
-          .then(response => response.text())
-          .then(scriptText => {
-            eval(scriptText);
-          })
-          .catch(error => {
-            console.error('Ошибка при загрузке скрипта', error);
-          });
-      } else {
-        alert('Неверный логин или пароль');
-        localStorage.removeItem('login');
-        localStorage.removeItem('password');
-        const newLogin = prompt('Введите выданный вам логин:');
-        const newPassword = prompt('Введите выданный вам пароль:');
-        checkLogin(newLogin, newPassword);
-      }
-    })
-    .catch(error => {
-      console.error('Ошибка при загрузке списка пользователей', error);
     });
-}
+    document.querySelectorAll('td.mark.current.soch').forEach((e) => {
+        const tasksDiv = e.querySelector('#tasks');
+        if (!e.querySelector('.tooltipster.mark_symbol.is-update') && tasksDiv) {
+            tasksDiv.innerHTML = '<div class="mark-plus">+</div>';
+        } else if (!e.querySelector('.tooltipster.mark_symbol.is-update')) {
+            e.insertAdjacentHTML('beforeend', '<div id="tasks" style="display: flex; align-items: center; justify-content: flex-end; padding: 5px;" data-bg="none"><div class="mark-plus">+</div></div>');
+        }
+    });
+    document.querySelectorAll('td.mark.current').forEach((e) => {
+        const tasksDiv = e.querySelector('#tasks');
+        if (!e.querySelector('.tooltipster.mark_symbol.is-update') && tasksDiv) {
+            tasksDiv.innerHTML = '<div class="mark-plus">+</div>';
+        } else if (!e.querySelector('.tooltipster.mark_symbol.is-update')) {
+            e.insertAdjacentHTML('beforeend', '<div id="tasks" style="display: flex; align-items: center; justify-content: flex-end; padding: 5px;" data-bg="none"><div class="mark-plus">+</div></div>');
+        }
+    });
+})();
