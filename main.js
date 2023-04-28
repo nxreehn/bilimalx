@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         BilimalXtnd.
+// @name         BilimalX
 // @namespace    noreehn.
-// @version      1.5
+// @version      1.5.1
 // @description  Скрипт даёт возможность выставить оценки после закрытия базы. 
 // @author       noreehn.
 // @match        https://school.bilimal.kz/*
