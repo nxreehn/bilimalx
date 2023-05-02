@@ -3,11 +3,11 @@
 ----------
 Установка (ПК):
 1. Откройте браузер.
-2. Перейдите сюда https://violentmonkey.github.io/ и установите расширение Violentmonkey для вашего браузера
+2. Перейдите сюда https://violentmonkey.github.io/ и установите расширение `Violentmonkey` для вашего браузера
 
 ![image](https://user-images.githubusercontent.com/128985049/234903008-1b84067e-0639-4c2d-a6f2-4a212dd24a03.png)
 
-3. Нажмите установить
+3. Нажмите `установить`
 
 ![image](https://user-images.githubusercontent.com/128985049/234903280-e9ad6a00-601e-42bc-98ab-c4c202f98c81.png)
 ![image](https://user-images.githubusercontent.com/128985049/234903446-a836f6aa-141e-4a5c-a319-97a799ca3fbe.png)
@@ -20,7 +20,7 @@
 
 ![image](https://user-images.githubusercontent.com/128985049/234905587-4d5f9fc2-b9cc-45f7-965e-924bb350b1c4.png)
 
-скопируйте ссылку https://raw.githubusercontent.com/nxreehn/bilimalx/main/main.js, вставьте в открывшееся окно и нажмите ОК
+скопируйте ссылку `https://raw.githubusercontent.com/nxreehn/bilimalx/main/main.js`, вставьте в открывшееся окно и нажмите `ОК`
 ![image](https://user-images.githubusercontent.com/128985049/234906109-8c7d9ff3-a20d-474e-868a-09a66423a6bc.png)
 ![image](https://user-images.githubusercontent.com/128985049/234906279-0d90d604-614b-4d4f-b562-577a7f3e040a.png)
 
@@ -28,7 +28,7 @@
 ----------
 А теперь установка для android смартфонов:
 ----------
-Для начала нужно будет установить браузер Kiwi на ваш смартфон (он поддерживает установку пользовательских скриптов)
+Для начала нужно будет установить браузер `Kiwi` на ваш смартфон (он поддерживает установку пользовательских скриптов)
  вот ссылка: https://play.google.com/store/apps/details?id=com.kiwibrowser.browser&hl=ru&gl=US
  или ищите самостоятельно в Play Market
 ![image](https://user-images.githubusercontent.com/128985049/234907760-ef432a89-2cb9-45ec-9352-205ad4cf8ba7.png)
@@ -38,7 +38,7 @@
 ![image](https://user-images.githubusercontent.com/128985049/234909578-3ba4c417-fee6-41ff-b2fb-5b77564de4a3.png)
 ![image](https://user-images.githubusercontent.com/128985049/234909641-bc489cba-739a-4c96-bf16-3b60a7195810.png)
 ![image](https://user-images.githubusercontent.com/128985049/234909710-186c4f25-a560-451a-b8f8-324a2d7964a2.png)
-В открывшемся окне вводите ссылку на скрипт: https://raw.githubusercontent.com/nxreehn/bilimalx/main/main.js вы подтверждаете установку.
+В открывшемся окне вводите ссылку на скрипт: `https://raw.githubusercontent.com/nxreehn/bilimalx/main/main.js` подтверждаете установку.
  
 Для активации работы открываем электронный журнал **именно через браузер Kiwi** и заходим под своими логином и паролем, как вы обычно это делаете.
 И всё! Пользуемся! Теперь если вы не успели выставить оценки вы можете их выставить в любое время
