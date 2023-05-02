@@ -1,44 +1,24 @@
-# bilimalx
-Скрипт даёт возможность выставить оценки в журнале после закрытия базы.
-----------
-Установка (ПК):
-1. Откройте браузер.
-2. Перейдите сюда https://violentmonkey.github.io/ и установите расширение `Violentmonkey` для вашего браузера
+# BilimalX
 
-![image](https://user-images.githubusercontent.com/128985049/234903008-1b84067e-0639-4c2d-a6f2-4a212dd24a03.png)
+Скрипт BilimalX предназначен для выставления оценок в электронном журнале после закрытия базы. В данном файле содержатся инструкции по установке для ПК и Андроид.
 
-3. Нажмите `установить`
+## Установка для ПК:
 
-![image](https://user-images.githubusercontent.com/128985049/234903280-e9ad6a00-601e-42bc-98ab-c4c202f98c81.png)
-![image](https://user-images.githubusercontent.com/128985049/234903446-a836f6aa-141e-4a5c-a319-97a799ca3fbe.png)
+1. Установите расширение Violentmonkey для вашего браузера, которое можно найти по ссылке https://violentmonkey.github.io
+2. Откройте окно расширения, нажав на его иконку.
+3. Зайдите в Настройки расширения Violentmonkey.
+4. Нажмите на "+" и выберите "Установить по ссылке".
+5. Вставьте в окно данную ссылку: https://raw.githubusercontent.com/nxreehn/bilimalx/main/main.js
 
-![image](https://user-images.githubusercontent.com/128985049/234903944-8526fe4f-7997-49e5-b1df-bde6dc648d64.png)
+## Установка для Android:
 
-![image](https://user-images.githubusercontent.com/128985049/234904655-377ae74b-4a96-4ffe-8490-c9fb1e071d25.png)
+1. Установите *Браузер Kiwi" из *Google Play Market*
+2. Зайдите в *Браузер Kiwi* и установите в него расширение *Violentmonkey* перейдя по ссылке https://violentmonkey.github.io и выбрав версию для *Google Chrome*
+3. После установки скрипта в *Браузер Kiwi* нажмите на "Три Точки" справа вверху и найдите в списке расширение *Violentmonkey*
+4. В открывшемся окне перейдите в настройки расширения и нажмите на "+"
+5. Вставьте ссылку на скрипт в пустое окно
+https://raw.githubusercontent.com/nxreehn/bilimalx/main/main.js
 
-![image](https://user-images.githubusercontent.com/128985049/234905221-1b8a8ee5-9186-4346-9bf6-2abba3c2efe5.png)
-
-![image](https://user-images.githubusercontent.com/128985049/234905587-4d5f9fc2-b9cc-45f7-965e-924bb350b1c4.png)
-
-скопируйте ссылку `https://raw.githubusercontent.com/nxreehn/bilimalx/main/main.js`, вставьте в открывшееся окно и нажмите `ОК`
-![image](https://user-images.githubusercontent.com/128985049/234906109-8c7d9ff3-a20d-474e-868a-09a66423a6bc.png)
-![image](https://user-images.githubusercontent.com/128985049/234906279-0d90d604-614b-4d4f-b562-577a7f3e040a.png)
-
-Вот и всё!
-----------
-А теперь установка для android смартфонов:
-----------
-Для начала нужно будет установить браузер `Kiwi` на ваш смартфон (он поддерживает установку пользовательских скриптов)
- вот ссылка: https://play.google.com/store/apps/details?id=com.kiwibrowser.browser&hl=ru&gl=US
- или ищите самостоятельно в Play Market
-![image](https://user-images.githubusercontent.com/128985049/234907760-ef432a89-2cb9-45ec-9352-205ad4cf8ba7.png)
-после установки браузера открываете его, заходите на сайт https://violentmonkey.github.io/ и устанавливаете расширение violentmonkey **(Важно! версию для Google Chrome)**
------
-![image](https://user-images.githubusercontent.com/128985049/234909275-fa6059cc-a94c-429a-ac90-8565d9cfd474.png)
-![image](https://user-images.githubusercontent.com/128985049/234909578-3ba4c417-fee6-41ff-b2fb-5b77564de4a3.png)
-![image](https://user-images.githubusercontent.com/128985049/234909641-bc489cba-739a-4c96-bf16-3b60a7195810.png)
-![image](https://user-images.githubusercontent.com/128985049/234909710-186c4f25-a560-451a-b8f8-324a2d7964a2.png)
-В открывшемся окне вводите ссылку на скрипт: `https://raw.githubusercontent.com/nxreehn/bilimalx/main/main.js` подтверждаете установку.
- 
-Для активации работы открываем электронный журнал **именно через браузер Kiwi** и заходим под своими логином и паролем, как вы обычно это делаете.
-И всё! Пользуемся! Теперь если вы не успели выставить оценки вы можете их выставить в любое время
+---
+После установки скрипта перейдите на сайт электронного журнала, введите свои логин и пароль.
+В журнале успеваемости появятся + и вы сможете выставить оценки в любое удобное для вас время.
