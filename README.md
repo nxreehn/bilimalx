@@ -9,8 +9,8 @@
 3. Зайдите в Настройки расширения **Violentmonkey**.
 4. Нажмите на **"+"** и выберите **"Установить по ссылке"**.
 5. Скопируйте и вставьте в окно данную ссылку:
-
-``` https://raw.githubusercontent.com/nxreehn/bilimalx/main/main.js
+```
+https://raw.githubusercontent.com/nxreehn/bilimalx/main/main.js
 ```
 
 ## Установка для Android:
