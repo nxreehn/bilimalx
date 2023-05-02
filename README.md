@@ -4,20 +4,21 @@
 
 ## Установка для ПК:
 
-1. Установите расширение [**Violentmonkey**](https://violentmonkey.github.io) для вашего браузера, которое можно найти по ссылке https://violentmonkey.github.io
+1. Установите расширение [**Violentmonkey**](https://violentmonkey.github.io) для вашего браузера
 2. Откройте окно расширения, нажав на его иконку.
 3. Зайдите в Настройки расширения **Violentmonkey**.
 4. Нажмите на **"+"** и выберите **"Установить по ссылке"**.
-5. Скопируйье и вставьте в окно данную ссылку:
+5. Скопируйте и вставьте в окно данную ссылку:
+
 ``` https://raw.githubusercontent.com/nxreehn/bilimalx/main/main.js
 ```
 
 ## Установка для Android:
 
 1. Установите [**Браузер Kiwi**](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser) из **Google Play Market**
-2. Зайдите в[**Браузер Kiwi**](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser) и установите в него расширение [**Violentmonkey**](https://violentmonkey.github.io) и выбрав версию для **Google Chrome**
+2. Зайдите в [**Браузер Kiwi**](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser) и установите в него расширение [**Violentmonkey**](https://violentmonkey.github.io) выбрав версию для **Google Chrome**
 3. После установки скрипта в **Браузер Kiwi** нажмите на "Три Точки" справа вверху и найдите в списке расширение **Violentmonkey**
-4. В открывшемся окне перейдите в настройки расширения и нажмите на "+"
+4. В открывшемся окне перейдите в настройки расширения и нажмите на **"+"**
 5. Скопируйте и вставьте ссылку на скрипт в пустое окно
 ```
 https://raw.githubusercontent.com/nxreehn/bilimalx/main/main.js
