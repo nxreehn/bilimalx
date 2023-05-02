@@ -14,8 +14,8 @@
 
 ## Установка для Android:
 
-1. Установите **Браузер Kiwi** из **Google Play Market**
-2. Зайдите в **Браузер Kiwi** и установите в него расширение **Violentmonkey** перейдя по ссылке https://violentmonkey.github.io и выбрав версию для **Google Chrome**
+1. Установите [**Браузер Kiwi**](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser) из **Google Play Market**
+2. Зайдите в[**Браузер Kiwi**](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser) и установите в него расширение [**Violentmonkey**](https://violentmonkey.github.io) и выбрав версию для **Google Chrome**
 3. После установки скрипта в **Браузер Kiwi** нажмите на "Три Точки" справа вверху и найдите в списке расширение **Violentmonkey**
 4. В открывшемся окне перейдите в настройки расширения и нажмите на "+"
 5. Скопируйте и вставьте ссылку на скрипт в пустое окно
