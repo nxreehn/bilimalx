@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         BilimalX
 // @namespace    noreehn.
-// @version      1.5.2
+// @version      1.5.3
 // @description  Скрипт даёт возможность выставить оценки после закрытия базы. 
 // @author       https://t.me/noreehn
 // @match        https://school.bilimal.kz/*
 // @icon         https://cdn-icons-png.flaticon.com/512/258/258304.png
-// @homepageURL  https://raw.githubusercontent.com/nxreehn/bilimalx/main/main.js
+// @homepageURL https://github.com/nxreehn/bilimalx/blob/main/README.md
 // @updateURL    https://raw.githubusercontent.com/nxreehn/bilimalx/main/main.js
 // @downloadURL  https://raw.githubusercontent.com/nxreehn/bilimalx/main/main.js
 // @grant GM_setValue
